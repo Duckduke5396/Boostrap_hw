@@ -26,10 +26,6 @@ a:link {
 	color: #333;
 	background: #eee;
 }
-a:visited {
-	color: #ff0000;
-	background: #eee;
-}
 #nav {
 	float: right;
 	margin: 50px 10px 0 0;
@@ -45,22 +41,9 @@ a:visited {
 	text-decoration: none;
 	background: none;
 }
-#content, #sidebar {
+#sidebar {
 	margin: 20px 0 20px 0;
 	padding: 10px;
-}
-
-#content {
-	float: right;
-}
-
-#content h2 {
-	font-size: 2.4em;
-	margin: 0 0 10px 0;
-}
-
-#content p {
-	margin: 0 0 10px 0;
 }
 
 #link-list {
