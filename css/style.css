@@ -1,5 +1,4 @@
 body {
-	margin: 0 auto;
 	padding: 0;
 	background: #580101;
 	font-family: Helvetica, sans-serif;
@@ -42,7 +41,7 @@ a:link {
 	background: none;
 }
 #sidebar {
-	margin: 20px 0 20px 0;
+	margin: 20px 10px 20px 0;
 	padding: 10px;
 }
 
@@ -74,8 +73,31 @@ a:link {
 }
 
 #footer {
-	background: rgb(102, 0, 0);
+	background: rgb(156, 156, 156);
 	padding: 10px;
 	text-align: center;
-	color: rgb(255, 255, 255);
+	color: rgb(49, 49, 49);
+}
+
+.bor{
+	padding: 10px 10px 10px 10px;
+	background: #ffffff;
+}
+.a{
+	padding: 5px 0 5px 0;
+	background: #83855e;
+	text-align: center;
+}
+.b{
+	background-image: url(../images/tokyo.jpg);
+	width: 1300px;
+	height: 250px;
+	background-size: 100%;
+	border: 10px solid;
+	border-color: rgb(136, 136, 136);
+	padding: 10px 10px 10px 10px;
+	margin: 0 0 5px 0;
+}
+.row{
+	--bs-gutter-x: 0rem;
 }
